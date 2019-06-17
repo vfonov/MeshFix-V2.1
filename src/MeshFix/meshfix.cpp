@@ -103,7 +103,7 @@ bool joinClosestComponents(Basic_TMesh *tin)
 
 void usage()
 {
- printf("\nMeshFix V2.0 - by Marco Attene\n------\n");
+ printf("\nMeshFix V2.1 - by Marco Attene\n------\n"); 
  printf("Usage: MeshFix inmeshfile [outmeshfile] [-a] [-j] [-x]\n");
  printf("  Processes 'inmeshfile' and saves the result to 'outmeshfile'\n");
  printf("  If 'outmeshfile' is not specified 'inmeshfile_fixed.off' will be produced\n");
@@ -132,7 +132,7 @@ int main(int argc, char *argv[])
 {
  TMesh::init(); // This is mandatory
  TMesh::app_name = "MeshFix";
- TMesh::app_version = "2.0";
+ TMesh::app_version = "2.1";
  TMesh::app_year = "2016";
  TMesh::app_authors = "Marco Attene";
  TMesh::app_maillist = "attene@ge.imati.cnr.it";
